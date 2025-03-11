@@ -52,10 +52,14 @@ elif codee=="07":
     harga = int(55000*add)
     print("Total Harga: Rp.",harga)
 else  :
+    judul = "Tidak tersedia"
+    harsa = "Rp.0"
+    harga = int(0*add)
+    print("Total Harga: Rp.",harga)
     print ("kode film tidak tersedia, mohon memilih kode film yang tersedia")
 
 
-if 100000<harga<=250000:
+if 100000< harga <=250000:
     diskon = int((15/100)*(harga))
     print("diskon:", diskon)
     total_harga = int(harga-diskon)
